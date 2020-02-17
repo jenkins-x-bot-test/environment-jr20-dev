@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: cb-kubecd
+    provider: github
+    repository: golang-05
+  name: cb-kubecd-golang-05
+spec:
+  description: Imported application for cb-kubecd/golang-05
+  httpCloneURL: https://github.com/cb-kubecd/golang-05.git
+  org: cb-kubecd
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: golang-05
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/cb-kubecd/golang-05.git
